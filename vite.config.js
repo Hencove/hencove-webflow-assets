@@ -19,7 +19,6 @@ export default defineConfig(({ mode }) => {
         input: {
           main: resolve(__dirname, "src/main.js"),
         },
-
         output: {
           // Use hashed filenames for better caching
           entryFileNames: prod
